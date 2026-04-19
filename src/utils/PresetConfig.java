@@ -97,6 +97,7 @@ public class PresetConfig extends JDialog {
 		gbc.gridwidth = 3;
 		gbc.fill = GridBagConstraints.NONE;
 		JLabel lblAtual = new JLabel("Caminho atual: " + DB.getDbDir());
+		lblAtual.setText("Caminho atual: " + DB.getDbDir());
 		lblAtual.setFont(new Font("SansSerif", Font.ITALIC, 11));
 		lblAtual.setForeground(new Color(130, 130, 130));
 		center.add(lblAtual, gbc);

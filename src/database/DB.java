@@ -21,8 +21,7 @@ public class DB {
 
 	private static final String CONFIG_DIR = System.getProperty("user.home") + File.separator + ".udemy_automation";
 	private static final String CONFIG_FILE = CONFIG_DIR + File.separator + "config.properties";
-	private static final String DEFAULT_DB_DIR = CONFIG_DIR;
-
+	private static final String DEFAULT_DB_DIR = "C:\\PresetsUdemy";
 	public static String getDbDir() {
 		try {
 			Properties props = loadConfig();
